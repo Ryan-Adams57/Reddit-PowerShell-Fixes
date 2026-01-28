@@ -6,7 +6,7 @@ Fix-InvokeCommandRemoting
 
 Simple, reliable PowerShell remoting fixer for Invoke-Command issues.
 
-What it solves
+# What it solves
 
 This script fixes the most common reasons Invoke-Command fails to run on remote systems:
 
@@ -20,7 +20,7 @@ Basic connectivity failures
 
 It automates safe setup steps and gives clear feedback if issues remain.
 
-How to use
+# How to use
 
 Save the script as Fix-InvokeCommandRemoting.ps1.
 
@@ -34,7 +34,7 @@ Enter the target computer name(s) when prompted.
 
 Follow the prompts to optionally extend WinRM timeout.
 
-Notes
+# Notes
 
 This configures WinRM over HTTP (port 5985) and firewall rules automatically.
 
